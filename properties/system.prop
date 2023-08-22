@@ -28,6 +28,9 @@ persist.vendor.dpm.feature=1
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
+# Log
+persist.log.tag.ACDB-LOADER=S
+
 # IMS
 persist.radio.VT_HYBRID_ENABLE=1
 persist.dbg.volte_avail_ovr=1
