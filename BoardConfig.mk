@@ -6,6 +6,10 @@
 
 DEVICE_PATH := device/xiaomi/apollo
 
+# ART
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_DEBUG := false
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
