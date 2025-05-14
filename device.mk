@@ -452,6 +452,8 @@ PRODUCT_COPY_FILES += \
 
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
+    libinput_shim \
+    libgui_shim \
     libwfdaac_vendor
 
 # Inherit the proprietary files
