@@ -7,10 +7,6 @@ iorapd.perfetto.enable=false
 iorapd.readahead.enable=false
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
-# Audio
-ro.config.media_vol_default=8
-ro.config.media_vol_steps=25
-
 # Blur
 ro.surface_flinger.supports_background_blur=1
 ro.sf.blurs_are_expensive=1
