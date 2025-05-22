@@ -321,7 +321,8 @@ PRODUCT_PACKAGES += \
     init.mi.btmac.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
-    init.qti.dcvs.sh
+    init.qti.dcvs.sh \
+    init.fast.charge.sh
 
 PRODUCT_PACKAGES += \
     init.qcom.power.rc \
@@ -329,7 +330,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     init.xiaomi.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.fast.charge.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
