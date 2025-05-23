@@ -14,6 +14,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from apollo device
 $(call inherit-product, device/xiaomi/apollo/device.mk)
 
+# Inherit Camera-related flagsAdd commentMore actions
+TARGET_USES_MIUI_CAMERA := true
+TARGET_INCLUDES_MIUI_CAMERA := true
+
 #Axion Bringup!
 TARGET_INCLUDES_LOS_PREBUILTS := true
 PRODUCT_NO_CAMERA := false
