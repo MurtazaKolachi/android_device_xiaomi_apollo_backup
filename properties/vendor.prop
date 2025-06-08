@@ -278,6 +278,9 @@ vendor.power.pasr.enabled=false
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
+# Power hal
+vendor.powerhal.disp.idle_support=true
+
 # Radio
 persist.radio.multisim.config=dsds
 persist.radio.VT_HYBRID_ENABLE=1
