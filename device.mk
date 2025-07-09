@@ -133,6 +133,11 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,camera,override_format_from_reserved,true)
 
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.product.mod_device=codename_global
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
