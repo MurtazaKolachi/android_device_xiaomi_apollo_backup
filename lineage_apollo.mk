@@ -17,12 +17,10 @@ $(call inherit-product, device/xiaomi/apollo/device.mk)
 RISING_MAINTAINER="Murtaza Kolachi"
 
 # Gms 
-WITH_GMS := false
-TARGET_CORE_GMS := true
-TARGET_CORE_GMS_EXTRAS := false
+WITH_GMS := true
 
 # Ship Pixel Launcher
-TARGET_DEFAULT_PIXEL_LAUNCHER := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
